@@ -17,9 +17,28 @@
 
         <main class="quote-container">
             <div class="quote-box">
-                <i class="fas fa-quote-left quote-icon"></i>
+                <div class="quote-header">
+                    <img id="author-image" src="default-avatar.png" alt="Author" class="author-image">
+                    <div class="author-info">
+                        <p id="quote-author" class="author"></p>
+                        <p id="quote-date" class="date"></p>
+                    </div>
+                </div>
                 <blockquote id="current-quote">Click the button to generate a quote!</blockquote>
-                <p id="quote-author" class="author"></p>
+                <div class="engagement-metrics">
+                    <div class="metric">
+                        <i class="far fa-eye"></i>
+                        <span id="views-count">0</span>
+                    </div>
+                    <div class="metric">
+                        <i class="far fa-heart"></i>
+                        <span id="likes-count">0</span>
+                    </div>
+                    <div class="metric">
+                        <i class="far fa-bookmark"></i>
+                        <span id="bookmarks-count">0</span>
+                    </div>
+                </div>
             </div>
 
             <div class="controls">
